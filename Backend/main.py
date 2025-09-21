@@ -1,4 +1,5 @@
 import os
+import re
 from fastapi import FastAPI, UploadFile, File, Form, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -6,16 +7,13 @@ from typing import List, Dict, Any
 from dotenv import load_dotenv
 from pathlib import Path
 
-
-# Servis dosyalarımızı import ediyoruz
-# DİKKAT: gemini_service'i başlatmak için yeni bir fonksiyon ekledik
+# Servis dosyalarımızdaki fonksiyonları import ediyoruz
 from services.gemini_service import init_gemini, generate_questions_from_gemini, generate_summary_from_gemini, get_recommendations
 from services.file_processor import process_uploaded_file
 from services.pdf_generator import create_quiz_pdf
 
 # .env dosyasını manuel olarak yükle
-env_path = Path('.') / '.env'
-load_dotenv(dotenv_path=env_path)
+load_dotenv()
 
 # API anahtarını burada oku
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -25,7 +23,7 @@ init_gemini(api_key)
 
 app = FastAPI(title="PratikAi API")
 
-# ... (CORS ayarları aynı, değişiklik yok) ...
+# CORS Ayarları
 origins = ["http://localhost:3000"]
 app.add_middleware(
     CORSMiddleware,
@@ -35,8 +33,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# --- API ENDPOINT'LERİ ---
 
-# ... (Tüm API endpoint'leri aynı, değişiklik yok) ...
 @app.get("/api/v1/health", tags=["General"])
 def read_health():
     """Uygulamanın ayakta olup olmadığını kontrol eder."""

@@ -6,26 +6,26 @@
 
 ## 🎯 Projenin Amacı
 
-Öğretmenlerin sınav ve materyal hazırlama yükünü azaltmak ve öğrencilere anında, kişiselleştirilmiş geri bildirimler sunarak öğrenme süreçlerini verimli bir şekilde desteklemek[cite: 3, 4, 7]. PratikAi, herhangi bir ders materyalini saniyeler içinde interaktif bir öğrenme deneyimine dönüştüren bir platformdur[cite: 5].
+Öğretmenlerin sınav ve materyal hazırlama yükünü azaltmak ve öğrencilere anında, kişiselleştirilmiş geri bildirimler sunarak öğrenme süreçlerini verimli bir şekilde desteklemek. PratikAi, herhangi bir ders materyalini saniyeler içinde interaktif bir öğrenme deneyimine dönüştüren bir platformdur.
 
 ## ✨ Ana Özellikler
 
-**Çok Yönlü Kaynak Girişi:** PDF, resim dosyaları (`PNG`, `JPG`), ekran görüntüleri veya doğrudan yapıştırılan metinleri analiz edebilir[cite: 12, 13, 14].
-**Öğrenci Modu:** Kullanıcılar, yükledikleri bir kaynaktan anında 10 soruluk interaktif bir testle kendilerini deneyebilir ve anında sonuçlarını görebilirler[cite: 9, 15].
-- **Öğretmen Modu:** Öğretmenler, soru sayısı, tipi (`çoktan seçmeli`, `doğru-yanlış` vb.) ve zorluk seviyesi gibi parametreleri ayarlayarak müfredatlarına tam uyumlu, özelleştirilmiş sınavlar oluşturabilirler[cite: 10, 17].
+- **Çok Yönlü Kaynak Girişi:** PDF, resim dosyaları (`PNG`, `JPG`), ekran görüntüleri veya doğrudan yapıştırılan metinleri analiz edebilir.
+- **Öğrenci Modu:** Kullanıcılar, yükledikleri bir kaynaktan anında 10 soruluk interaktif bir testle kendilerini deneyebilir ve anında sonuçlarını görebilirler.
+- **Öğretmen Modu:** Öğretmenler, soru sayısı, tipi (`çoktan seçmeli`, `doğru-yanlış` vb.) ve zorluk seviyesi gibi parametreleri ayarlayarak müfredatlarına tam uyumlu, özelleştirilmiş sınavlar oluşturabilirler.
 -   **🧠 Akıllı Geri Bildirim (Özgün Özellik):** Üretilen soruların pedagojik düzeyini (bilgi, kavrama vb.) analiz ederek öğretmene, eğitim materyalini nasıl daha etkili hale getirebileceği konusunda somut öneriler sunar.
--   [cite_start]**Tavsiye Modülü:** Başarısız sınav sonuçlarının ardından veya özetlerle birlikte, kullanıcının konusunu pekiştirmesi için ilgili Google ve YouTube linklerini otomatik olarak önerir[cite: 30].
--   [cite_start]**Otomatik Özetleme:** Uzun metinlerden saniyeler içinde ana fikirleri içeren kısa ve anlaşılır özetler çıkarır[cite: 11, 24].
--   [cite_start]**PDF Çıktısı:** Oluşturulan tüm sınavlar ve cevap anahtarları, tek bir tıkla PDF olarak indirilebilir[cite: 25, 27, 28, 29].
+-  **Tavsiye Modülü:** Başarısız sınav sonuçlarının ardından veya özetlerle birlikte, kullanıcının konusunu pekiştirmesi için ilgili Google ve YouTube linklerini otomatik olarak önerir.
+-  **Otomatik Özetleme:** Uzun metinlerden saniyeler içinde ana fikirleri içeren kısa ve anlaşılır özetler çıkarır.
+-  **PDF Çıktısı:** Oluşturulan tüm sınavlar ve cevap anahtarları, tek bir tıkla PDF olarak indirilebilir.
 
 ## 💻 Kullanılan Teknolojiler
 
 | Katman | Teknoloji | Açıklama |
 | :--- | :--- | :--- |
-| **Frontend** | Next.js (React), Tailwind CSS | [cite_start]Modern, hızlı ve tamamen responsive bir kullanıcı deneyimi sunar[cite: 32, 33, 35]. |
-| **Backend** | Python, FastAPI | [cite_start]Yüksek performanslı, asenkron ve yapay zeka entegrasyonu için ideal bir API sunucusu[cite: 41, 42]. |
+| **Frontend** | Next.js (React), Tailwind CSS | Modern, hızlı ve tamamen responsive bir kullanıcı deneyimi sunar. |
+| **Backend** | Python, FastAPI | Yüksek performanslı, asenkron ve yapay zeka entegrasyonu için ideal bir API sunucusu. |
 | **Yapay Zeka** | Google Gemini API, EasyOCR | Metin anlama, soru üretme, özetleme ve görsellerden metin okuma (OCR) görevlerini yerine getirir. |
-| **Deployment**| Vercel (Frontend), Railway/Render (Backend) | [cite_start]Projenin sürekli entegrasyon ve teslimat (CI/CD) prensipleriyle kolayca canlıya alınmasını sağlar[cite: 39, 47]. |
+| **Deployment**| Vercel (Frontend), Railway/Render (Backend) | Projenin sürekli entegrasyon ve teslimat (CI/CD) prensipleriyle kolayca canlıya alınmasını sağlar. |
 
 ## 🚀 Kurulum ve Çalıştırma
 

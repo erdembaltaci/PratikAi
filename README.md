@@ -1,6 +1,8 @@
 # PratikAi 📚✨
 
 **Hackathon için geliştirilmiş, metin ve görsellerden yapay zeka destekli sınavlar, özetler ve akıllı geri bildirimler üreten bir eğitim teknolojisi platformu.**
+# Proje Tanıtım Videosu:
+https://youtu.be/21cdUmNRQ2Q
 
 ---
 

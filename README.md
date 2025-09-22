@@ -63,5 +63,6 @@ Projemizin en değerli ve özgün kısmı budur. PratikAi:
 2.  Bağımlılıkları yükleyin: `npm install`
 3.  Geliştirme sunucusunu başlatın: `npm run dev`
 
+### Proje Algoritma Akış Diyagramı:
 <img width="635" height="672" alt="algoritma_paratkai" src="https://github.com/user-attachments/assets/c789697b-3d4b-445a-b7a7-61196b428001" />
 
